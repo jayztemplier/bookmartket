@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.2.11'
-gem 'mysql2'
 gem 'newrelic_rpm'
 gem 'nokogiri'
 
@@ -28,7 +27,12 @@ gem 'markdownizer'
 gem 'jquery-rails'
 gem "rails-backbone"
 
+group :production do
+  gem 'pg'
+end
+
 group :development, :test do
+  gem 'mysql2'
   gem "autotest-rails", "4.1.0"
   gem "rspec-rails"
   gem "launchy"
