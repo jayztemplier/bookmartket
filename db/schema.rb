@@ -33,10 +33,10 @@ ActiveRecord::Schema.define(:version => 20130212082157) do
   create_table "notes", :force => true do |t|
     t.integer  "user_id"
     t.string   "title"
-    t.text     "body"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
-    t.text     "rendered_body"
+    t.text     "body",          :limit => 255
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
+    t.text     "rendered_body", :limit => 255
   end
 
   create_table "notes_tags", :force => true do |t|

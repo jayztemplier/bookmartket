@@ -56,14 +56,14 @@
 @purple: #484b55;
 @iconSpritePath:          "/images/glyphicons-halflings.png";
 @iconWhiteSpritePath:     "/images/glyphicons-halflings-white.png";
-
+@redBackground : rgb(184, 72, 60);
 
 html,body{
   margin:0;
   padding:0;
   overflow-x:hidden;
   overflow-y:auto;
-  background-color:#efefef;
+  background-color: @redBackground;
   border:none;
 }
 
@@ -183,7 +183,7 @@ legend{
     border-bottom:1px solid #ccc;
     border-top:1px solid #fff;
     display:block;
-    background-color:#efefef;
+    background-color:@redBackground;
     
     input[type="text"],textarea{
       width:95%;
