@@ -3207,16 +3207,8 @@ body {
 .bookmark {
   display: block;
   padding: 4px;
-  border-top: 1px solid #dfdfdf;
-  border-bottom: 1px solid #ffffff;
-  background-color: #f2f2f2;
-  background-image: -moz-linear-gradient(top, #ffffff, #dfdfdf);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#dfdfdf));
-  background-image: -webkit-linear-gradient(top, #ffffff, #dfdfdf);
-  background-image: -o-linear-gradient(top, #ffffff, #dfdfdf);
-  background-image: linear-gradient(to bottom, #ffffff, #dfdfdf);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdfdfdf', GradientType=0);
+  background-color: #b8483c;
+  border-bottom: 1px solid #311310;
   overflow: auto;
 }
 .bookmark a.link {
@@ -3250,23 +3242,12 @@ textarea {
   border: 1px solid #ccc;
 }
 #top-bar {
-  background-color: #444;
+  background-color: #000;
   position: fixed;
   top: 0;
   left: 0;
   padding: 10px;
   padding-bottom: 12px;
-  background-color: #303030;
-  background-image: -moz-linear-gradient(top, #444444, #111111);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#111111));
-  background-image: -webkit-linear-gradient(top, #444444, #111111);
-  background-image: -o-linear-gradient(top, #444444, #111111);
-  background-image: linear-gradient(to bottom, #444444, #111111);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff111111', GradientType=0);
-  -webkit-box-shadow: 0px 0px 8px #222222;
-  -moz-box-shadow: 0px 0px 8px #222222;
-  box-shadow: 0px 0px 8px #222222;
 }
 #top-bar .btns {
   display: inline-block;
@@ -3275,15 +3256,9 @@ textarea {
 }
 #top-bar .btns #add-mark.active {
   border-color: #000;
-  -webkit-box-shadow: inset 2px 2px 5px #47110d;
-  -moz-box-shadow: inset 2px 2px 5px #47110d;
-  box-shadow: inset 2px 2px 5px #47110d;
 }
 #top-bar .btns #add-note.active {
   border-color: #000;
-  -webkit-box-shadow: inset 2px 2px 5px #47110d;
-  -moz-box-shadow: inset 2px 2px 5px #47110d;
-  box-shadow: inset 2px 2px 5px #47110d;
 }
 #top-bar .search-form {
   display: inline-block;
@@ -3292,10 +3267,7 @@ textarea {
   width: auto;
 }
 #top-bar .search-form input[type="text"] {
-  background-color: #444;
-  -webkit-box-shadow: inset 1px 1px 4px #000000;
-  -moz-box-shadow: inset 1px 1px 4px #000000;
-  box-shadow: inset 1px 1px 4px #000000;
+  background-color: #fff;
   border: 1px solid #000;
   color: #dfdfdf;
   width: 200px;
@@ -3313,6 +3285,7 @@ legend {
   font-weight: bold;
   line-height: 20px;
   background-color: #b8483c;
+  border-bottom: 0px;
 }
 .form-horizontal .control-group {
   margin: 0;
